@@ -7,12 +7,12 @@ baseURL= "https://bakaniko.github.io/shriveling_world_documentation"
 [[menu.main]]
     name = "User documentation" #Name in the navigation bar
     weight = 10 #The larger the weight, the more on the right this item will be
-    url = "./" #URL address
+    url = "/" #URL address
 [[menu.main]]
     name = "Developper documentation"
     weight = 20
-    url = {{< relref "documentation" >}}
+    url = "https://bakaniko.github.io/shriveling_world_documentation/documentation"
 [[menu.main]]
     name = "Application"
     weight = 30
-    url = {{< relref "app" >}}
+    url = "https://bakaniko.github.io/shriveling_world_documentation/app"
