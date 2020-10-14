@@ -9,7 +9,7 @@ script:
 deploy:
   provider: pages
   skip_cleanup: true
-  repo: theworldisnotflat/shriveling_world_documentation
+  repo: bakaniko/shriveling_world_documentation
   github_token: $GH_TOKEN
   keep_history: true
   local_dir: pages # dossier qu'on souhaite exporter dans pages
